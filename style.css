@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-image: linear-gradient(to right, rgb(92, 145, 229), rgb(152, 63, 198))
+}
+
+.box {
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    top: 50vh;
+}
+
+#btn1,
+#btn2 {
+    color: white;
+    background-color: black;
+    border: 5px solid black;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.copy {
+    padding: 20px;
+    border: 2px;
+}
